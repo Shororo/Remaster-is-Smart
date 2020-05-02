@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="ja">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- titanic -->
+  <script src="https://cdn.rawgit.com/icons8/titanic/master/dist/js/titanic.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/4.5.9/bodymovin.min.js"></script>
+  <!-- fontawesome -->
+  <script src="https://kit.fontawesome.com/7c414374ac.js" crossorigin="anonymous"></script>
+  <!-- google fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&display=swap" rel="stylesheet">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <!-- Smooth_Slider CSS -->
+  <link rel="stylesheet" href="assets/smooth_slider/smooth_slider.css" />
+  <!-- animate CSS -->
+  <link rel="stylesheet" href="assets/animate.css">
+  <!-- MyCSS -->
+  <link rel="stylesheet" href="assets/mystyle.css">
+  <link rel="stylesheet" href="assets/RiS.css">
+  
+  <title>RiS 動画が主役のWEBサイト制作</title>
+</head>
+<body>
+
+  <header>
+    <div class="header-contents header-mobile">
+      <a id="in-navigation" href="#"><img class="logo" src="images/logo.svg" alt="ヘッダーロゴ"></a>
+      <svg class="navigation" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" height="48" width="48"><g class="nc-icon-wrapper js-transition-icon" data-effect="scale" data-event="click"><g class="js-transition-icon__state" style=""><style type="text/css">
+        .st0{fill:none;stroke:#FFFFFF;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;}
+      </style><title>bars_open_24</title><g id="icon">
+        <line class="st0" x1="10" y1="12" x2="26" y2="12"></line>
+        <line class="st0" x1="34" y1="12" x2="38" y2="12"></line>
+        <line class="st0" x1="28" y1="24" x2="38" y2="24"></line>
+        <line class="st0" x1="22" y1="36" x2="38" y2="36"></line>
+        <line class="st0" x1="10" y1="24" x2="20" y2="24"></line>
+        <line class="st0" x1="10" y1="36" x2="14" y2="36"></line>
+      </g></g><g class="js-transition-icon__state" aria-hidden="true" style="display: none;"><style type="text/css">
+        .st0{fill:none;stroke:#FFFFFF;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;}
+      </style><title>icn_7</title><line class="st0" x1="16" y1="16" x2="32" y2="32"></line><line class="st0" x1="24" y1="24" x2="32" y2="16"></line><line class="st0" x1="16" y1="32" x2="21.5" y2="26.5"></line></g></g><script>!function(){"use strict";if(!window.requestAnimationFrame){var a=null;window.requestAnimationFrame=function(t,i){var e=(new Date).getTime();a||(a=e);var s=Math.max(0,16-(e-a)),n=window.setTimeout(function(){t(e+s)},s);return a=e+s,n}}function r(t,i,e,s){return 1&gt;(t/=s/2)?e/2*t*t*t*t+i:-e/2*((t-=2)*t*t*t-2)+i}function e(t){return t?[1,0]:[0,1]}function t(t){this.element=t,this.svg=function t(i){var e=i.parentNode;if("svg"!==e.tagName)e=t(e);return e;}(this.element),this.getSize(),this.states=this.element.querySelectorAll(".js-transition-icon__state"),this.time={start:null,total:200},this.status={interacted:!1,animating:!1},this.animation={effect:this.element.getAttribute("data-effect"),event:this.element.getAttribute("data-event")},this.init()}t.prototype.getSize=function(){var t=this.svg.getAttribute("viewBox");this.size=t?{width:t.split(" ")[2],height:t.split(" ")[3]}:this.svg.getBoundingClientRect()},t.prototype.init=function(){var t=this;this.svg.addEventListener(t.animation.event,function(){t.status.animating||(t.status.animating=!0,window.requestAnimationFrame(t.triggerAnimation.bind(t)))})},t.prototype.triggerAnimation=function(t){var i=this.getProgress(t);this.animateIcon(i),this.checkProgress(i)},t.prototype.getProgress=function(t){return this.time.start||(this.time.start=t),t-this.time.start},t.prototype.checkProgress=function(t){if(this.time.total&gt;t)window.requestAnimationFrame(this.triggerAnimation.bind(this));else{this.status={interacted:!this.status.interacted,animating:!1},this.time.start=null;var i=e(this.status.interacted);this.states[i[0]].removeAttribute("aria-hidden"),this.states[i[1]].setAttribute("aria-hidden","true")}},t.prototype.animateIcon=function(t){if(t&gt;this.time.total){t=this.time.total;}if(0&gt;t){t=0;};var i=e(this.status.interacted);this.states[i[0]].style.display=t&gt;this.time.total/2?"none":"block",this.states[i[1]].style.display=t&gt;this.time.total/2?"block":"none","scale"==this.animation.effect?this.scaleIcon(t,i[0],i[1]):this.rotateIcon(t,i[0],i[1])},t.prototype.scaleIcon=function(t,i,e){var s=r(Math.min(t,this.time.total/2),1,-.2,this.time.total/2).toFixed(2),n=r(Math.max(t-this.time.total/2,0),.2,-.2,this.time.total/2).toFixed(2);this.states[i].setAttribute("transform","translate("+this.size.width*(1-s)/2+" "+this.size.height*(1-s)/2+") scale("+s+")"),this.states[e].setAttribute("transform","translate("+this.size.width*n/2+" "+this.size.height*n/2+") scale("+(1-n)+")")},t.prototype.rotateIcon=function(t,i,e){var s=r(t,0,180,this.time.total).toFixed(2);this.states[i].setAttribute("transform","rotate(-"+s+" "+this.size.width/2+" "+this.size.height/2+")"),this.states[e].setAttribute("transform","rotate("+(180-s)+" "+this.size.width/2+" "+this.size.height/2+")")};var i=document.querySelectorAll(".js-transition-icon");if(i)for(var s=0;i.length&gt;s;s++)new t(i[s])}();</script></svg>
+    </div>
+
+    <div class="header-contents header-desktop">
+      <a id="in-navigation" href="#"><img class="logo" src="images/logo.svg" alt="ヘッダーロゴ"></a>
+      <nav class="">
+        <div class="box-center-menu clr-white">
+          <ul>
+            <li><a href="#">トップ</a></li>
+            <li><a href="#sec1">RiSって何？</a></li>
+            <li><a href="#sec2">制作実績</a></li>
+            <li><a href="#sec3">ブランドを魅せる</a></li>
+          </ul>
+          <ul>
+            <li><a href="#sec4">一目惚れさせる</a></li>
+            <li><a href="#sec5">個性を活かすあなたに</a></li>
+            <li><a href="#sec6">料金プラン</a></li>
+            <li><a href="#sec7">お問い合わせ</a></li>
+            <li><a href="#sec8">SNS</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <nav class="nav-mobile">
+    <div class="clr-white">
+      <ul>
+        <li><a href="#">トップ</a></li>
+        <li><a href="#sec1">RiSって何？</a></li>
+        <li><a href="#sec2">制作実績</a></li>
+        <li><a href="#sec3">ブランドを魅せる</a></li>
+        <li><a href="#sec4">一目惚れさせる</a></li>
+        <li><a href="#sec5">個性を活かすあなたに</a></li>
+        <li><a href="#sec6">料金プラン</a></li>
+        <li><a href="#sec7">お問い合わせ</a></li>
+        <li><a href="#sec8">SNS</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="nav-cover"></div>
+
+  <div id="top">
+    <div class="vh-100 vw-100 bg-transparent relative">
+      <video src="material/webversion.mp4" autoplay loop muted playsinline>
+        <p>動画を再生するには、videoタグをサポートしたブラウザが必要です。</p>
+      </video>
+      <img class="title-logo" src="images/logo.svg" align="">
+    </div>
+  </div>
+
+  <div id="#sec1">
+    <div class="bg-gradation1">
+      <div class="width-90">
+        <div class="ptb-15">
+          <div class="text-center">
+            <h1 class="midasi pb-7">RiSってなに？</h1>
+            <p>RiSは動画制作に重きを置くWEBサイト制作サービスです。</p>
+            <p class="pt-5">人々に"瞬間的な理解とインパクトを与える"</p>
+            <p>それは「音」「動き」「文字」の3つを駆使できる動画にしかできないこと――</p>
+          </div>
+          <iframe class="pt-10 movie-first relative-center" width="560" height="315" src="https://www.youtube.com/embed/oWl0CS2cRfw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="#sec2">
+
+  </div>
+
+  <div id="#sec3">
+
+  </div>
+
+  <div id="#sec4">
+
+  </div>
+
+  <div id="#sec5">
+
+  </div>
+
+  <div id="#sec6">
+
+  </div>
+
+  <div id="#sec7">
+
+  </div>
+
+  <div id="#sec8">
+
+  </div>
+
+
+
+
+  <!-- フッター -->
+  <footer class="w-100 bg-footer clr-white">
+    <div class="ptb-7 text-center">
+      <img class="footer-logo" src="images/logo.svg" alt="">
+      <div class="footer-line-box p-5">
+        <hr class="style14">
+      </div>
+      <p class="text-center clr-white"><small>&copy; 2020 RiS (Remaster is Smart)</small></p>
+    </div>
+  </footer>
+  <!-- フッターここまで -->
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+  <!-- inview JS -->
+  <script src="assets/inview/jquery.inview.min.js"></script>
+
+  <!-- WOW JS -->
+  <script src="assets/wow.js"></script>
+  <script>
+    new WOW().init();
+  </script>
+
+  <!-- titanic -->
+  <script>
+    var titanic = new Titanic();
+  </script>
+
+  <!-- myJS -->
+  <script src="assets/myscript.js"></script>
+</body>
+</html>
