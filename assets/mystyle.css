@@ -685,7 +685,6 @@ video{
   .movie-first{
     width: 300px;
     height: 330px;
-    object-fit: cover;
   }
 }
 
@@ -693,7 +692,6 @@ video{
   .movie-first{
     width: 514px;
     height: 500px;
-    object-fit: cover;
   }
 }
 
@@ -701,7 +699,6 @@ video{
     .movie-first{
       width: 800px;
       height: 700px;
-      object-fit: cover;
     }
   }
 
