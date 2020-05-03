@@ -473,6 +473,12 @@ img {
   transform: translate(-50%, -50%);
   z-index: 1;
 }
+.absolute-center2{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 999;
+}
 
 /* headerここから */
 /* モバイル用 */
@@ -681,6 +687,9 @@ video{
     height: 330px;
     object-fit: cover;
   }
+  .height-movie{
+    height: 330px;
+  }
 }
 
 @media (min-width: 639px){
@@ -689,6 +698,9 @@ video{
     height: 500px;
     object-fit: cover;
   }
+  .height-movie{
+    height: 500px;
+  }
 }
 
 @media (min-width: 900px){
@@ -696,6 +708,9 @@ video{
     width: 800px;
     height: 700px;
     object-fit: cover;
+  }
+  .height-movie{
+    height: 700px;
   }
 }
 
