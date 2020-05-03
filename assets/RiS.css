@@ -4,7 +4,7 @@
 .production-container {
   height: 35rem;
   white-space: nowrap;
-  background-color: #3f51b5;
+  background-color: rgba(0, 0, 0, 0);
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
   padding-left: 20px;
@@ -17,6 +17,7 @@
 }
 .item {
   flex: 0 0 200px;
+  margin-right: 2rem;
   white-space: normal;
   word-wrap: break-word;
 }
@@ -68,7 +69,7 @@
 .production-container {
   height: 50rem;
   white-space: nowrap;
-  background-color: #3f51b5;
+  background-color: rgba(0, 0, 0, 0);
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
   padding-left: 20px;
@@ -80,6 +81,7 @@
   margin-left: -20px;
 }
 .item {
+  margin-right: 2rem;
   flex: 0 0 250px;
   white-space: normal;
   word-wrap: break-word;
@@ -131,12 +133,13 @@
 .production-container {
   height: 60rem;
   white-space: nowrap;
-  background-color: #3f51b5;
+  background-color: rgba(0, 0, 0, 0);
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
   padding-left: 20px;
 }
 .item {
+  margin-right: 2rem;
   flex: 0 0 350px;
   white-space: normal;
   word-wrap: break-word;
@@ -151,12 +154,13 @@
 .production-container {
   height: 60rem;
   white-space: nowrap;
-  background-color: #3f51b5;
+  background-color: rgba(0, 0, 0, 0);
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
   padding-left: 20px;
 }
 .item {
+  margin-right: 2rem;
   flex: 0 0 400px;
   white-space: normal;
   word-wrap: break-word;

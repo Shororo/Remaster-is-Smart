@@ -687,9 +687,6 @@ video{
     height: 330px;
     object-fit: cover;
   }
-  .height-movie{
-    height: 330px;
-  }
 }
 
 @media (min-width: 639px){
@@ -698,19 +695,12 @@ video{
     height: 500px;
     object-fit: cover;
   }
-  .height-movie{
-    height: 500px;
-  }
-}
 
 @media (min-width: 900px){
   .movie-first{
     width: 800px;
     height: 700px;
     object-fit: cover;
-  }
-  .height-movie{
-    height: 700px;
   }
 }
 
