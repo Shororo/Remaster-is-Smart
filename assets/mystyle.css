@@ -473,7 +473,7 @@ img {
   transform: translate(-50%, -50%);
   z-index: 1;
 }
-.absolute-center2{
+.absolute-centerX{
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
