@@ -82,8 +82,8 @@ a {
 a:hover{
   background:transparent;
   text-decoration: none;
-  color: #ffa501;
-  border-color: #ffa501;
+  color: #fdff64;
+  border-color: #fdff64;
 }
 .underline{
   text-decoration: underline;
@@ -428,13 +428,23 @@ img {
   background: linear-gradient(335deg, #9556FF, #0B0F23, #0B0F23);
 }
 .bg-gradation4{
-  background: -moz-linear-gradient(65deg, #9556FF, #0B0F23, #0B0F23); 
-  background: -webkit-linear-gradient(65deg, #9556FF, #0B0F23, #0B0F23); 
-  background: linear-gradient(205deg, #9556FF, #0B0F23, #0B0F23);
+  background: -moz-linear-gradient(65deg, #E4765D, #0B0F23, #0B0F23); 
+  background: -webkit-linear-gradient(65deg, #E4765D, #0B0F23, #0B0F23); 
+  background: linear-gradient(50deg, #E4765D, #0B0F23, #0B0F23);
 }
 .bg-picture{
   background-image: url(../material/paper01.svg);
   background-size: cover;
+}
+.bg-solid{
+  background-image: url("../material/silid-background.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.bg-cool{
+  background-image: url("../material/cool-background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .clr-white{
   color: rgba(255, 255, 255, 1) !important;
@@ -813,6 +823,6 @@ video{
   /*googleform*/
   .google-form{
     width: 100%;
-    height: 100rem;
+    height: 120rem;
   }
 /*googleform*/
